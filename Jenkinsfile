@@ -12,7 +12,7 @@ pipeline {
         stage('Test') {
             steps {
                 echo 'Running the compiled program...'
-                sh './hello'
+                sh './helo' //intentional typo
             }
         }
 
